@@ -30,6 +30,10 @@
     .hero-subtext {
       font-family: 'Montserrat', sans-serif !important;
     }
+    
+    .my-text-primary {
+      color: #3B99FF !important;
+    }
 
     .feature-bg-soft {
       background-color: #e0e8e8 !important;
