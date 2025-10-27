@@ -1,11 +1,17 @@
-/* Hero Section */
+    /* Hero Section */
     .hero {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
       padding: 5rem 2rem;
-      background-color: #f8f9fa;
+      text-align: center;
+      color: white;
+      min-height: 100vh;
+
+      /* Gradient Background */
+      background: linear-gradient(135deg, #4aa3a3, #6fb0f0, #cce0ff);
+      background-size: cover;
     }
 
     .hero img {
@@ -13,7 +19,8 @@
       height: 200px;
       border-radius: 50%;
       object-fit: cover;
-      border: 2px solid #007bff;
+      border: 3px solid #ffffff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     }
 
     .hero-heading {
@@ -24,10 +31,15 @@
       font-family: 'Montserrat', sans-serif !important;
     }
 
+    .feature-bg-soft {
+      background-color: #e0e8e8 !important;
+    }
+
     .feature h3 {
       font-family: 'Cardo', serif !important;
       color: #5fc3c3;
     }
+
     .feature p {
       font-family: 'Montserrat', sans-serif !important;
     }
@@ -63,7 +75,11 @@
     }
 
     #full-skills h1 {
-      font-family: 'Cardo',serif !important;
+      font-family: 'Cardo', serif !important;
+    }
+
+    #project-portfolio .card{
+      background-color: #e9ecef !important;
     }
 
     #project-portfolio h1 {
