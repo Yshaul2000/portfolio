@@ -35,6 +35,10 @@
       background-color: #e0e8e8 !important;
     }
 
+    .my-custom-icon-color {
+      background-color: #3B89FF !important;
+    }
+
     .feature h3 {
       font-family: 'Cardo', serif !important;
       color: #5fc3c3;
