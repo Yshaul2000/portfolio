@@ -1,0 +1,88 @@
+/* Hero Section */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 5rem 2rem;
+      background-color: #f8f9fa;
+    }
+
+    .hero img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #007bff;
+    }
+
+    .hero-heading {
+      font-family: 'Cardo', serif !important;
+    }
+
+    .hero-subtext {
+      font-family: 'Montserrat', sans-serif !important;
+    }
+
+    .feature h3 {
+      font-family: 'Cardo', serif !important;
+      color: #5fc3c3;
+    }
+    .feature p {
+      font-family: 'Montserrat', sans-serif !important;
+    }
+
+    .feature-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 0.75rem;
+    }
+
+    /* Skills Cards */
+    .skill-card {
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      text-align: left;
+      background-color: #e9ecef;
+      transition: transform 0.3s;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .skill-card ul {
+      padding-left: 1.5rem;
+      margin-bottom: 0;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .skill-card h4 {
+      font-family: 'Montserrat', sans-serif !important;
+    }
+
+    #full-skills h1 {
+      font-family: 'Cardo',serif !important;
+    }
+
+    #project-portfolio h1 {
+      font-family: 'Cardo', serif !important;
+    }
+
+    #project-portfolio h5,
+    #project-portfolio p {
+      font-family: 'Montserrat', sans-serif !important;
+    }
+
+    #project-portfolio h5 {
+      font-weight: bold;
+    }
+
+    #contact h2 {
+      font-family: 'Cardo', serif !important;
+    }
+
+    #contact span {
+      font-family: 'Montserrat', sans-serif !important;
+    }
